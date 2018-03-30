@@ -1,0 +1,104 @@
+html,body{
+	background: #fff;
+}
+header{
+	background: #fff;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+header .search{
+	font-size: .2rem;
+}
+header .searchBox{
+	background:#f5f5f5;
+	height: .72rem;
+	margin-left: .3rem;
+	margin-top: .14rem;
+	border-radius:.05rem;
+	position: relative;
+	width: 5rem;
+}
+header .searchBox i img{
+	position: absolute;
+	width:.26rem;
+	height: .26rem;
+	left:.25rem;
+	margin-top:.23rem;
+}
+header .searchBox .search{
+	margin-left:.6rem;
+	width: 2.8rem;
+	margin-top:.23rem;
+	height: 0.3rem;
+	background:none;
+	border:none;
+	font-size: .26rem;
+	outline:none;
+	  font-family: PingFangSC-Regular, sans-serif; 
+}
+header .return-back{
+	height: .5rem;
+	font-size: .3rem;
+	position: absolute;	
+	right: .2rem;
+	top: .3rem;
+}
+
+/* ---------------------主体---------------------- */
+
+#main .nav {
+	width: 100%;
+	height: .95rem;
+	position: relative;
+}
+#main .nav  span{
+	font-size: .32rem;
+	line-height: .95rem;
+	color: #666666;
+	margin-left: .3rem;
+}
+#main .nav img{
+	width: .34rem;
+	height: .33rem;
+	position: absolute;
+	right: .3rem;
+	top: .3rem;
+}
+#main .food{
+	width: 6.9rem;
+	padding-left: .3rem;
+	height: 1.8rem;
+	font-size: 0.25rem;
+	overflow: hidden;
+}
+#main .food span{
+	border: 1px solid #ccc;
+	padding: .1rem .2rem;
+	font-size: .34rem;
+	border-radius:5px;
+	display: inline-block;
+	margin-right: .3rem;
+	margin-bottom: .3rem;
+}
+#main .section{
+	width: 6.9rem;
+	padding-left: .3rem;
+}
+#main .section h4{
+	font-size: .32rem;
+	line-height: .95rem;
+	color: #666666;
+}
+#main .section span{
+	border: 1px solid #ccc;
+	padding: .1rem .2rem;
+	font-size: .34rem;
+	border-radius:5px;
+	display: inline-block;
+	margin-bottom: .3rem;
+	margin-right: .3rem;
+}
+.bgsp{
+	color:#fc4141;
+	border-color: #fc4141;
+}

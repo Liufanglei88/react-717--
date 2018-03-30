@@ -1,0 +1,390 @@
+html,body{
+	background: #eeeeee;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+#containered {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.head-mine{
+	background: #fff;
+}
+.head-mine .Retruns{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	top:0.3rem ;
+	left:0.25rem;
+	z-index:20;
+    }
+.head-mine .my{
+		width: 100%;
+		text-align: center;
+		line-height: 1rem;
+		font-size: 0.35rem;
+		color: #333;
+}
+.head-mine .message{
+		display: inline-block;
+		position: absolute;
+		right: 0.25rem;
+		top:0.38rem;
+		width: 0.45rem;
+    	height: 0.4rem;			
+	}
+.head-mine .spbg{
+  display: inline-block;
+  width:.14rem;
+  height:.14rem;
+  border-radius: .08rem;
+  position: absolute;
+  background: red;
+  right: .22rem;
+  top:.35rem;
+}
+#main-section {
+	width: 100%;
+	flex:1;
+	overflow:auto;
+}
+#main-section  .information{
+	width: 100%;
+	height: 1.97rem;
+	background: url(../../static/images/phpot.png) repeat-x 0 0;
+	overflow: hidden;
+  
+	
+}
+#main-section .information img{
+	display:block;
+	width: 1.23rem;
+	height:1.24rem;
+	margin:0.14rem 0 0 2.6rem;
+	vertical-align:bottom;
+}
+#main-section .information p{
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: .5rem;
+	font-weight: normal;
+	font-family: PingFangSC-Regular, sans-serif;
+	z-index: 99;
+}
+
+#main-section .paymentBox{
+	background: #ffffff;
+	margin-bottom: 0.2rem;
+}
+#main-section  .paymentBox h3{
+	width: 100%;
+	height: 1.32rem;
+	color: #fc4141;
+	position: relative;
+	border-bottom: 1px solid #eeeeee;
+}
+#dingdan{
+	width: .11rem;
+	height: .24rem;
+	display: inline-block;
+}
+#main-section .paymentBox h3 label{
+	margin:6% 0 0 15%;
+	font-size: .34rem;
+	display: inline-block;
+}
+#main-section .paymentBox h3 label img{
+	position: absolute;
+	top: 25%;
+	left: .3rem;
+	width: 0.7rem;
+	height: 0.63rem;
+}
+#main-section .paymentBox h3 img{
+	position: absolute;
+	top: 40%;
+	right: 5%;
+	width: 0.17rem;
+	height: 0.35rem;
+}
+#main-section .paymentBox ul{
+	width: 100%;
+	height: 1.47rem;
+	display: -webkit-flex;
+}
+#main-section .paymentBox ul li{
+	width: 100%;
+	height: 1.47rem;
+	-webkit-flex-grow:1;
+}
+#main-section .paymentBox ul li img{
+	width: 0.45rem;
+	height: 0.45rem;
+	margin:0.35rem 0 0.1rem 0.4rem;
+}
+#main-section .paymentBox ul li span{
+	display: block;
+	text-align: center;
+	font-size: 0.26rem;
+}
+
+#main-section .paymentBox ul li span:last-child{
+	padding-right: 0.2rem;
+	color: #333;
+}
+#main-section .manageBox{
+	background: #ffffff;
+}
+#main-section .manageBox ol li{
+	width: 100%;
+	height: 1.03rem;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+}
+#main-section .manageBox ol li label{
+	color: #333;
+	margin-top: .3rem;
+	margin-left:1.1rem; 
+	font-size: .32rem; 
+	display: inline-block;
+}
+#main-section .manageBox ol li label img{
+	width: 0.4rem;
+	height: 0.36rem;
+	position: absolute;
+	left: 8%;
+	top: 28%;
+}
+#main-section .manageBox ol li i{
+	width: 0.11rem;
+	height: 0.24rem;
+	display: inline-block;
+	position: absolute;
+	top: 29%;
+	right: 5%;
+}
+#main-section .manageBox ol li i img{
+	margin-top: .1rem;
+	width: 100%;
+	height: 100%;
+}
+#main-section .mygroom{
+clear: both;
+margin-top: 0.1rem;
+
+}
+#main-section .mygroom h4{
+	width: 100%;
+    background: #ffffff;
+    height: .9rem;
+    line-height: .9rem;
+    position: relative;
+
+}
+#main-section .mygroom h4 label img{
+	 width: 0.34rem;
+	 height: 0.24rem;
+}
+#main-section .mygroom h4 label img:nth-child(1){
+	position: absolute;
+	top: 0.33rem;
+	left: 2.7rem;
+}
+#main-section .mygroom h4 label img:nth-child(2){
+	position: absolute;
+	top: 0.33rem;
+	right: 2.6rem;
+}
+#main-section .mygroom h4 span{
+	display: inline-block;
+	font-size: 0.3rem;
+	margin-left: 42%;
+}
+#main-section .mygroom h4 a{
+	position: absolute;
+	top: 0;right: 0;
+	font-size: 0.22rem;
+	margin: .3rem .3rem 0 0;
+}
+#main-section .mygroom h4 a img{
+	width: 0.1rem;
+	height: .2rem;
+}
+#main-section .mygroom .mygroomlrt{
+	width: 100%;
+	height: 5.32rem;
+	margin-top: 0.08rem;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-left{
+	width: 49%;
+	height: 100%;
+	float: left;
+	background: #ffffff;
+	/* margin-top: 0.12rem; */
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dt img{
+	width: 100%;
+	height: 3.69rem;
+}
+
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dd p{
+		position: relative;
+	font-size: 0.28rem;
+	line-height: 0.35rem;
+	height: .7rem;
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dd{
+		padding-top: .13rem;
+}
+ .mygroomlrt-left dd p{
+ 	line-height: .37rem;
+ }
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dd p img{
+	width:0.65rem;
+	height: 0.55rem;
+	display: inline-block;
+	position: absolute;
+	right: 3%;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dd p span{
+	font-size: 0.25rem;
+	color: #fc4141;
+	display: inline-block;
+	margin:0.17rem 0 0 0rem;
+
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-left dd p span label{
+	 font-size: .32rem;
+    font-weight: bold;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-right{
+	width: 49%;
+	height: 100%;
+	float: right;
+	background: #ffffff;
+
+	/* margin-top: 0.12rem; */
+}
+.mygroomlrt-right dd{
+	padding-top: .18rem;
+}
+
+.mygroomlrt-right dd p{
+	line-height: .37rem;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-right dt img{
+	width: 100%;
+	height: 3.69rem;
+}
+
+#main-section .mygroom .mygroomlrt .mygroomlrt-right dd p{
+	position: relative;
+	font-size: 0.28rem;
+	line-height: 0.35rem;
+	height: .7rem;
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.mygroomlrt-right dd p:nth-child(1){
+		font-size: 0.28rem;
+	line-height: 0.35rem;
+	height: .7rem;
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-right dd p img{
+	width:0.65rem;
+	height: 0.55rem;
+	display: inline-block;
+	position: absolute;
+	right: 3%;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-right dd p span{
+	font-size: 0.25rem;
+	color: #fc4141;
+	display: inline-block;
+	margin-left: 0.1rem;
+	margin: 0.17rem 0 0 0rem;
+}
+#main-section .mygroom .mygroomlrt .mygroomlrt-right dd p span label{
+	 font-size: .32rem;
+    font-weight: bold;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+
+#imgLi{
+	position: relative;
+	border-left: 1px solid #e5e5e5;
+}
+#dianImg{
+	position: absolute;
+	right: .1rem;
+	bottom: 0.13rem;
+	width: 0.11rem!important;
+	height: 0.24rem!important;
+}
+.adrs{
+  width: 4.4rem;
+  height: .66rem;
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 3.7rem;
+  left: 1.6rem;
+  line-height: .66rem;
+  color:#fff;
+  text-align: center;
+  z-index: 100;
+  border-radius: .5rem;
+  overflow: hidden;
+
+}
+
+
+.mark img{
+	width: 90%;
+	margin-left: 7%;
+	margin-top: 22%; 
+}
+.mark span {
+	width: .7rem;
+	height: .7rem;
+	/* background: url(../../static/images/bank_close.png)no-repeat
+	; */
+	background-size: .7rem .7rem;
+	display: block;
+	position: relative;
+	top: 20%;
+	left: 74%; 
+}
+.mark p {
+	width: 100%;
+	text-align: center;
+	line-height: .4rem;
+	color: #fff;
+	margin-top: .2rem;
+	font-size: .34rem; 
+}
+.mark nav{
+	width: 60%;
+	background: #faeb31;
+	margin-left: 20%;
+	color: #fc4141;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	text-align: center;
+	border-radius: .6rem;
+	font-size: .34rem;
+	margin-top: .4rem;
+	box-shadow: inset 0rem -.1rem #efb109;
+}
+
+

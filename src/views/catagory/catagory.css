@@ -1,0 +1,157 @@
+.containerss{
+	width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.top-head{
+	height: 1rem;
+    position: relative;
+    display: -webkit-flex;
+}
+.top-head .return{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+		top:0.25rem ;
+		left:0.25rem;
+	}
+.top-head .blan{
+	margin-left:0.80rem;
+	position: relative;
+		width: 5rem;
+		height:0.6rem;
+		background:#f5f5f5; 
+		text-align: center;
+		margin-top: 0.12rem;
+		border: none;
+		border-radius:10px;
+}
+.top-head .blan img{
+	position: absolute;
+	width:.26rem;
+	height: .26rem;
+	left:.3rem;
+	margin-top:.15rem;
+}
+.top-head .blan .txt1{
+	width: 3.4rem;
+	height: 0.6rem;
+	line-height: .6rem;
+	font-size: 0.20rem!important;
+	background: #f5f5f5;
+	border: none;
+	outline: none;
+}
+.top-head .message{
+		display: inline-block;
+		position: absolute;
+		right: 0.25rem;
+		top:0.35rem;
+		width: 0.45rem;
+    	height: 0.4rem;			
+	}
+.top-head .spbg{
+  display: inline-block;
+   width: .14rem;
+  height: .14rem;
+  border-radius: .07rem;
+  position: absolute;
+  background: red;
+  right: .2rem;
+  top:.31rem;
+}
+
+.setSection {
+	display:flex;
+	border-top: 1px solid #eeeeee;
+	margin-top: .1rem;
+	margin-bottom: 0.98rem;
+}
+
+.setSection .left{
+		width:2.2rem;
+		border-right:none;
+		background:#f0eced;
+		overflow: auto;
+		font-size:0.28rem;
+		color:rgb(154,154,154);
+	}
+.setSection .left ul{
+			width: 100%;
+			border: none;
+		
+		}
+.setSection .left ul li{
+				text-align:center;			
+				line-height:1.1rem;
+				font-size: .3rem;
+				font-weight: 500;
+				color:#333;
+				}
+.setSection .left ul li span{
+	font-weight: 500;
+	font-size: 0.20rem;
+}
+.setSection .left ul li img{
+					position: absolute;
+					left: .25rem;
+					top: .22rem;
+					width: 0.4rem;
+					height:0.4rem;
+				}		
+.setSection .left ul 	.bgli{
+				color:#fc4141;
+				background: #fff;
+				text-align: center;
+				border-right: none;		
+				border-left: 2px solid #fc4141;
+			}
+	
+.setSection .right{
+		width:5.2rem;
+		float: right;
+		overflow: auto;
+        background: #fff;
+	
+	}
+	::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+}
+ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+} 
+.setSection .right section{
+				width:100%;
+				}
+
+.setSection .right section dl{
+					width:30%;
+					height: 2.5rem;
+					float: left;
+					margin-left:.1rem;
+					margin-top: .13rem;
+					background: #f7f7f7;
+				}
+.setSection .right section dl dt{
+						width: 1.4rem;
+						height: 1.4rem;
+						margin-top: .06rem;
+						margin-left: .06rem
+					}
+.setSection .right section dl dt img{
+							width:100%;
+						}
+					
+.setSection .right section dl dd{
+						text-align:center;
+						color: #909090;
+						font-size:0.3rem;
+						margin-top: .2rem;
+						overflow: hidden;
+					}
+
+

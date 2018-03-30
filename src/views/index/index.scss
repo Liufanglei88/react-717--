@@ -1,0 +1,44 @@
+%qjz{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-wrap{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	min-height: 100%;
+	footer{
+		color: red;
+		background: #fff;
+		border-top: 1px solid #e5e5e5;
+		display: flex;
+		height: 0.98rem;
+		overflow: hidden;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 999;
+		a{
+			width: 25%;
+			@extend %qjz;
+			flex-direction: column;
+			font-size: .24rem;
+			text-decoration: none;
+			i{
+				font-size: 0.4rem;
+				margin-top: 0.14rem;
+			}
+			span{
+				margin-bottom: 0.13rem;
+                 font-size: 0.25rem;
+			}
+		} 
+		.bga {
+		color: #fc4141;
+	   }
+	}
+	
+}
