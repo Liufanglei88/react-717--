@@ -1,4 +1,5 @@
 import $http from '../../utils/http';
+require('isomorphic-fetch');
 import {getCookie} from '../../utils/utils';
 import {UPDATE_GOODS_LIST,SELECTED_ALL} from '../../store/reducer'
 export default function mapDispatchToProps(dispatch){

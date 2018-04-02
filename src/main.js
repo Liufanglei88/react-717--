@@ -11,5 +11,5 @@ import './static/css/common.css'
 import fontset from './utils/fontset'
 import Toast from 'react-toast-mobile';
 import 'react-toast-mobile/lib/react-toast-mobile.css'
-console.log(process.env);
+console.log(process.env.NODE_ENV);
 ReactDOM.render(<Fragment><Provider store={store}><App/></Provider><Toast/></Fragment> , document.getElementById("root"));

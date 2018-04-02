@@ -62,7 +62,8 @@ header .message{
 	width: 88%;
 	line-height: .8rem;
     padding-left: .2rem;
-    outline: 0;
+	outline: 0;
+	font-size: 0.25rem;
 }
 #main{
     width: 100%;
@@ -79,6 +80,7 @@ header .message{
     overflow: hidden;
     margin-left: .3rem;
 	position: relative;
+	font-size: 0.25rem;
 } 
 #main nav .select:nth-child(2){ 
     width: 2.8rem;
@@ -161,7 +163,8 @@ header .message{
     width: .48rem;
     height: .48rem;
     border-radius: 50%;
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
+	
 }
  #main  .defc .bgss {
         /*  background: url(../images/goshop/8.gif)no-repeat; */

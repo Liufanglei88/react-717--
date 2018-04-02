@@ -3,7 +3,7 @@ let baseConfig = require("./webpack.base");
 let DefinePlugin = webpack.DefinePlugin;
 baseConfig.plugins.push(
   new DefinePlugin({
-    "process.env": '"development"'
+    "process.env.NODE_ENV": '"development"'
   }),
   new webpack.HotModuleReplacementPlugin()
 );

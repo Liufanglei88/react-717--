@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import './consigness.css'
+import Header from '../../components/header'
 class Consignee extends Component{
     constructor(){
         super()
     }
     render(){
+		let {history}=this.props;
         return <div id="container">
-    	<header>
-    		<a href="javascript:;">
-    			<img className="return" src={require('../../static/images/return.png')} />
-    		</a>
-			<p className="gosh">收货人</p> 
-    	</header>
+    	<Header history={history}>
+		   收货地址
+    	</Header>
     	
 			<div id="main">	
 			<form id="address_form" method='post' action='#'>
